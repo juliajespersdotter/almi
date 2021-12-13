@@ -1,0 +1,71 @@
+
+body{
+    font-family: sofia-pro, sans-serif;
+    font-size: 14px;
+}
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+header{
+    background-color: #2819FF;
+}
+
+#almi-negative{
+    width: 20%;
+    height: 20%;
+    align-items: center;
+}
+
+#links{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.hero-text-wrapper{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-icons-wrapper img{
+    width: 1.5rem;
+}
+
+.checked-text{
+    text-align: left;
+}
+
+#happy-client{
+    background-color: #AAE6FF;
+}
+.meeting{
+    background-color: #AAE6FF;
+}
+
+#meeting-img{
+    max-width:100%;
+}
+
+.btn-submit{
+    width: 7rem;
+}
+
+.testimonial {
+    width: 80%;
+    background-color: #AAE6FF;
+}
