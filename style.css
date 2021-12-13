@@ -1,7 +1,14 @@
+:root{
+    --primary-color: #2819FF;
+    --secondary-color: #A0AAFF;
+    --accent-color: #00BE5F;
+    --text-color: #F5F7FA;
+}
 
 body{
     font-family: sofia-pro, sans-serif;
     font-size: 14px;
+    color: var(--text-color);
 }
 h1{
     font-size: 2rem;
@@ -16,7 +23,7 @@ h3{
 }
 
 header{
-    background-color: #2819FF;
+    background-color: var(--primary-color);
 }
 
 #almi-negative{
@@ -31,6 +38,10 @@ header{
 }
 
 .hero{
+    /* background-image: url("assets/graphical elements/hero-image.png");
+    height: 25rem;
+    background-size: cover;
+    background-position: center; */
     position: relative;
     text-align: center;
 }
@@ -50,11 +61,8 @@ header{
     text-align: left;
 }
 
-#happy-client{
-    background-color: #AAE6FF;
-}
 .meeting{
-    background-color: #AAE6FF;
+    background-color: var(--secondary-color);
 }
 
 #meeting-img{
@@ -66,6 +74,6 @@ header{
 }
 
 .testimonial {
-    width: 80%;
-    background-color: #AAE6FF;
+    width: 100%;
+    background-color: var(--secondary-color);
 }
