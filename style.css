@@ -7,19 +7,23 @@
 
 body{
     font-family: sofia-pro, sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     color: var(--text-color);
 }
 h1{
-    font-size: 2rem;
-}
-
-h2{
     font-size: 1.3rem;
 }
 
-h3{
+h2{
     font-size: 1rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 0.9rem;
+}
+p{
+    font-size: 0.8rem;
 }
 
 header{
@@ -32,23 +36,18 @@ header{
     align-items: center;
 }
 
-#links{
-    list-style-type: none;
-    font-size: 1.2rem;
+.nav-link{
+    color: var(--text-color); 
 }
 
 .hero{
-    /* background-image: url("assets/graphical elements/hero-image.png");
-    height: 25rem;
-    background-size: cover;
-    background-position: center; */
     position: relative;
     text-align: center;
 }
 
 .hero-text-wrapper{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
 }
