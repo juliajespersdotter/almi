@@ -20,56 +20,38 @@
     <header>
         <nav class="navbar navbar-expand-lg d-flex justify-content-between">
             <div class="container-fluid">
-                <img id="almi-negative" class="ms-1 mt-1 img-fluid" src="assets/graphical elements/almi-negative.svg" alt="almi negative logo">
+                <img id="almi-negative" class="navbar-brand ms-1 mt-1 img-fluid" src="assets/graphical elements/almi-negative.svg" alt="almi negative logo">
                 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </div>
+                <button class="navbar-toggler" id="hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto text-center">
+                    <a class="nav-link active" aria-current="page" href="#">Hem</a>
+                    <a class="nav-link" href="#">Tjänster</a>
+                    <a class="nav-link" href="#">Om oss</a>
+                </div>
             </div>
           </div>
         </nav>
+    </header>
 
-
-
-
-            <!-- <div class="container-fluid">
-                <button class="navbar-toggler ms-auto" type="button" date-mdb-toggle="collapse" data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3" aria-expended="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-                </button>
-            </div>
-            </nav>
-            <div class="collapse menu" id="navbarToggleExternalContent3">
-                <div class="bg-light shadow-3 p-4">
-                    <button class="btn btn-link btn-block border-bottom m-0">Mina sidor</button>
-                    <button class="btn btn-link btn-block border-bottom m-0">Tjänster</button>
-                    <button class="btn btn-link btn-block m-0">Om oss</button>
-                </div>
-            </div> -->
-        </header>
-    
+    <main>
         <div class="hero mb-4">
             <img class="img-fluid" id="hero-image"src="assets/graphical elements/hero-image.png" alt="">
-    
+
             <div class="hero-text-wrapper d-flex w-50 flex-column">
                 <h1 class="text-white hero-text">Starta företag?<br> Vi hjälper dig</h1>
-    
+
                 <h2 class="text-white hero-text-secondary mt-2">Ansök om uppstartslån</h2>
 
                 <div class="usp-wrapper d-flex justify-content-center w-100 m-auto">
                     <div class="hero-icons-wrapper me-1 d-flex flex-column justify-content-evenly">
                         <img class="img-fluid" src="assets/graphical elements/checked.png" alt="">
                         <img class="img-fluid" src="assets/graphical elements/checked.png" alt="">
-                        
                         <img class="img-fluid" src="assets/graphical elements/checked.png" alt="">
                     </div>
-    
+
                     <div class="d-flex flex-wrap flex-column w-75">
                         <h3 class="text-white checked-text">Personlig Rådgivning</h3>
                         <h3 class="text-white checked-text">Tre alternativ</h3>
@@ -79,9 +61,9 @@
 
             </div>
         </div>
-    
-        <main class="container">
-            <section>
+
+        <section>
+            <div class="container">
                 <article class="meeting d-flex flex-column mb-3">
                     <img id="meeting-img" class="img-fluid w-100" src="assets/images/meeting.jpg" alt="">
                     <div class="container m-2 meeting-text d-flex flex-column">
@@ -89,25 +71,176 @@
     
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo possimus incidunt autem ducimus</p>
     
-                        <button class="mt-4 btn-submit m-auto">Boka möte</button>
+                        <button type="button" data-toggle="button" class="mt-4 btn btn-primary btn-submit m-auto">Boka möte</button>
                     </div>
                 </article>
-            </section>
-    
-            <section>
-                <article class="testimonial d-flex justify-content-center m-auto">
+            </div>
+        </section>
+
+        <section class="articles">
+            <div class="container">
+                <article class="testimonial d-flex justify-content-center">
                     <img id="happy-client" class="w-50 m-auto img-fluid" src="assets/images/happy-client.png" alt="a happy business owner">
         
-                    <div class="testimonial-text d-flex flex-column align-items-center">
-                        <h2 class="text-center ">Vi finns till för dig</h2>
+                    <div class="testimonial-text d-flex flex-column justify-content-between w-50">
+                        <h2 class="text-center mt-3">Vi finns till för dig</h2>
         
                         <p class="px-4 align-self-center ">Lisa, 23 är nöjd med sin upplevelse efter hennes lån.</p>
+
+                        <button type="button" class="btn btn-primary m-2">Läs mer</button>
                     </div>
 
-                    <img class="img-fluid" src="" alt="">
                 </article>
-            </section>
-        </main>
+                </div>
+
+            <div class="container">
+                <article class="second-article flex-row-reverse d-flex justify-content-center">
+                    <img src="assets/images/happy-client-man.png" id="happy-client-man" class="w-50 mg-fluid" alt="">
+
+                    <div class="testimonial-text d-flex flex-column justify-content-between w-50">
+                        <!-- <h2 class="text-center mt-3">Dröm stort</h2> -->
+
+                        <img src="assets/graphical elements/award.png" class="img-fluid w-75 m-auto" alt="">
+
+                        <p class="px-4">
+                            Ta reda på varför våra kunder väljer oss.
+                        </p>
+
+                        <button type="button" class="btn btn-primary m-2">Läs mer</button>
+                    </div>
+                </article>
+            </div>  
+        </section>
+
+        <section>
+            <div class="container-fluid m-0 p-0">
+                <article class="pricing pb-3 mb-3">
+                    <h2 class="text-center mt-3 pt-3">Välj en plan som passar dig</h2>
+
+                <div class="d-md-flex justify-content-md-evenly gap-2 m-3">
+                    <div class="card m-auto mt-4">
+                        <div class="card-body">
+                            <h1 class="card-header text-center">10 000:-</h1>
+
+                            <h2 class="text-center mt-5 ">Två månaders återbetalning</h2>
+
+                            <button type="button" class="btn btn-primary w-100 m-auto mt-5 text-center">
+                                Ansök
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card m-auto mt-4">
+                        <div class="card-body">
+                            <h1 class="card-header text-center">25 000:-</h1>
+
+                            <h2 class="text-center mt-5 ">Sex månaders återbetalning</h2>
+
+                            <button type="button" class="btn btn-primary w-100 m-auto mt-5 text-center">
+                                Ansök
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card m-auto mt-4">
+                        <div class="card-body">
+                            <h1 class="card-header text-center">50 000:-</h1>
+
+                            <h2 class="text-center mt-5 ">Tolv månaders återbetalning</h2>
+
+                            <button type="button" class="btn btn-primary w-100 m-auto mt-5 text-center">
+                                Ansök
+                            </button>
+                        </div>
+                    </div>
+                </div>  
+                </article>
+            </div>
+
+            <div class="container">
+                <article class="d-flex flex-column flex-md-row justify-content-evenly text-center">
+                    <div class="usp-wrapper d-flex flex-column mb-5">
+                        <img src="assets/graphical elements/checked.png" class="icon img-fluid m-auto" alt="">
+    
+                        <h3 class="usp-text m-auto">Alltid fast ränta 5%</h3>
+                    </div>
+
+                    <div class="usp-wrapper mb-5 d-flex flex-column">
+                        <img src="assets/graphical elements/checked.png" class="icon img-fluid m-auto" alt="">
+    
+                        <h3 class="usp-text m-auto">Alltid fast amortering 500 SEK/månad</h3>
+                    </div>
+
+                    <div class="usp-wrapper mb-5 d-flex flex-column">
+                        <img src="assets/graphical elements/checked.png" class="icon img-fluid m-auto" alt="">
+    
+                        <h3 class="usp-text m-auto">Statligt ägd och pålitligt</h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="container-fluid m-0 p-0">
+            <article class="stats-article m-auto d-flex justify-content-center align-items-center
+            flex-column pb-5">
+                <h2 class="text-center mt-5 mb-5">Lita på siffrorna</h2>
+
+            <div class="stats-wrapper d-flex flex-wrap w-100">
+                <div class="flex-item w-25">
+                    <h2 class="text-center stats">5000</h2>
+                    <h3 class="text-center">Nöjda kunder</h3>
+                </div>
+
+                <div class="flex-item w-25">
+                    <h2 class="text-center stats">325</h2>
+                    <h3 class="text-center">Anställda</h3>
+                </div>
+
+                <div class="flex-item w-25">
+                    <h2 class="text-center stats">99%</h2>
+                    <h3 class="text-center">Lån-garanti</h3>
+                </div>
+
+                <div class="flex-item w-25">
+                    <h2 class="text-center stats">16500</h2>
+                    <h3 class="text-center">Följare på twitter</h3>
+                </div>
+            </div>
+            </article>
+        </div>
+
+        <div class="container-fluid m-0 p-0">
+            <article class="brand-names m-auto d-flex justify-content-center align-items-center
+            flex-column pb-5">
+
+            <div class="background-gradient w-100">
+                <h2 class="text-center mt-5 mb-5">Företag vi har hjälpt</h2>
+    
+                <div class="stats-wrapper d-flex flex-wrap w-100">
+                    <div class="flex-item w-25">
+                        <h3 class="text-center">Nöjda kunder</h3>
+                        <h3 class="text-center">Nöjda kunder</h3>
+                    </div>
+    
+                    <div class="flex-item w-25">
+                        <h3 class="text-center">Anställda</h3>
+                        <h3 class="text-center">Anställda</h3>
+                    </div>
+    
+                    <div class="flex-item w-25">
+                        <h3 class="text-center">Lån-garanti</h3>
+                        <h3 class="text-center">Lån-garanti</h3>
+                    </div>
+    
+                    <div class="flex-item w-25">
+                        <h3 class="text-center">Följare på twitter</h3>
+                        <h3 class="text-center">Följare på twitter</h3>
+                    </div>
+                </div>
+            </div>
+            </article>
+        </div>
+    </main>
 
         <script src="script.js"></script>
 </body>

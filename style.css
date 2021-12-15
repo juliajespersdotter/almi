@@ -4,26 +4,29 @@
     --accent-color: #00BE5F;
     --text-color: #F5F7FA;
 }
+html{
+    font-size: 14px;
+}
 
 body{
     font-family: sofia-pro, sans-serif;
-    font-size: 10px;
     color: var(--text-color);
 }
 h1{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 h3{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
+
 p{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 header{
@@ -36,8 +39,13 @@ header{
     align-items: center;
 }
 
+#hamburger{
+    color: var(--text-color);
+}
+
 .nav-link{
     color: var(--text-color); 
+    font-size: 1.2rem;
 }
 
 .hero{
@@ -62,6 +70,7 @@ header{
 
 .meeting{
     background-color: var(--secondary-color);
+    color: black;
 }
 
 #meeting-img{
@@ -69,10 +78,78 @@ header{
 }
 
 .btn-submit{
-    width: 7rem;
+    width: 12rem;
+    color: var(--text-color);
+}
+
+.btn:hover{
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 
 .testimonial {
     width: 100%;
     background-color: var(--secondary-color);
+    color: black;
+}
+
+.second-article{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.pricing{
+    background-color: var(--secondary-color)
+}
+
+.card{
+    background-color: var(--accent-color);
+    width: 15rem;
+}
+
+.card-header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card h2{
+    font-weight: normal;
+}
+
+.icon{
+    width: 10%;
+    margin-bottom: 2rem;
+}
+
+.usp-text{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.stats-article{
+    background-color: var(--text-color);
+    color: black;
+}
+
+.stats{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.brand-names{
+    background: url("assets/images/ux-indonesia-w00FkE6e8zE-unsplash.jpg");
+    background-size: cover;
+    max-width: 100%;
+}
+
+.background-gradient{
+    background: linear-gradient(90deg, #ffffff0c 0%, #ffffff44 100%);
+}
+
+/* Media Queries */
+@media only screen and (min-width: 740px){
+    html{
+        font-size: 18px;
+    }
+    
+
 }
