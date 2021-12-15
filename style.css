@@ -78,12 +78,9 @@ header{
     color: black;
 }
 
-#meeting-img{
-    max-width:100%;
-}
-
 .btn-submit{
     width: 12rem;
+    font-size: 1.2rem;
     color: var(--text-color);
 }
 
@@ -179,11 +176,46 @@ footer{
     text-decoration: none;
 }
 
+.links-wrapper a:hover{
+    color: black;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 740px){
     html{
         font-size: 18px;
     }
     
+    .checked-text{
+        text-align: left;
+        margin-left: 1rem;
+    }
+}
 
+@media only screen and (min-width: 1020px){
+    html{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.7rem;
+    }
+
+    #hero-image{
+        height: auto;
+    }
+
+    .articles{
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
 }
