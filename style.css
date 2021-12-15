@@ -48,6 +48,11 @@ header{
     font-size: 1.2rem;
 }
 
+.nav-link:hover{
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+
 .hero{
     position: relative;
     text-align: center;
@@ -142,7 +147,36 @@ header{
 }
 
 .background-gradient{
-    background: linear-gradient(90deg, #ffffff0c 0%, #ffffff44 100%);
+    background:#2d2c2c57;
+}
+
+.questions {
+    color: black;
+}
+
+.question-wrapper{
+    border: 1px solid var(--text-color);
+    padding-bottom: 1rem;
+}
+
+span{
+    color:black;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.sign-up{
+    background-color: var(--accent-color);
+    width: 90%;
+}
+
+footer{
+    background-color: var(--primary-color);
+}
+
+.links-wrapper a{
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 /* Media Queries */
