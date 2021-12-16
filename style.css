@@ -89,13 +89,15 @@ header{
 .btn-submit{
     width: 12rem;
     font-size: 1.2rem;
+    background-color: var(--primary-color);
     color: var(--text-color);
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--text-color);
 }
 
 .btn:hover{
     background-color: var(--text-color);
     color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .btn-blue{
@@ -131,7 +133,7 @@ header{
 
 .card{
     background-color: var(--accent-color);
-    width: 15rem;
+    width: 16rem;
 }
 
 .card-header{
@@ -207,6 +209,11 @@ footer{
 .links-wrapper a{
     color: var(--text-color);
     text-decoration: none;
+}
+
+.links-wrapper h3{
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .links-wrapper a:hover{
@@ -305,5 +312,9 @@ footer{
 
     .testimonial-text{
         width: 50%; 
+    }
+
+    .social-media i{
+        font-size: 2rem;
     }
 }
