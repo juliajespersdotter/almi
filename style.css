@@ -1,3 +1,9 @@
+/*
+TODO: - Questions ska ligga i mitten inte över
+- styla knappar bättre
+- lägga in ett till grafiskt element
+*/
+
 :root{
     --primary-color: #2819FF;
     --secondary-color: #A0AAFF;
@@ -13,20 +19,22 @@ body{
     color: var(--text-color);
 }
 h1{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
 h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 p{
     font-size: 1.2rem;
+    line-height: 2;
+    padding: 1.2rem;
 }
 
 header{
@@ -74,7 +82,7 @@ header{
 }
 
 .meeting{
-    background-color: var(--secondary-color);
+    background-color:var(--text-color);
     color: black;
 }
 
@@ -82,11 +90,27 @@ header{
     width: 12rem;
     font-size: 1.2rem;
     color: var(--text-color);
+    border: 1px solid var(--primary-color);
 }
 
 .btn:hover{
     background-color: var(--text-color);
     color: var(--primary-color);
+}
+
+.btn-blue{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.btn-inverted{
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+
+.btn-inverted:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .testimonial {
@@ -101,7 +125,8 @@ header{
 }
 
 .pricing{
-    background-color: var(--secondary-color)
+    margin-top: 5rem;
+    background-color: var(--secondary-color);
 }
 
 .card{
@@ -118,7 +143,7 @@ header{
 }
 
 .icon{
-    width: 10%;
+    width: 30%;
     margin-bottom: 2rem;
 }
 
@@ -144,7 +169,7 @@ header{
 }
 
 .background-gradient{
-    background:#2d2c2c57;
+    background:#151515b3;
 }
 
 .questions {
@@ -160,6 +185,14 @@ span{
     color:black;
     font-size: 1.3rem;
     margin-left: 1rem;
+}
+.social-media i{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.social-media i:hover{
+    color: var(--primary-color);
 }
 
 .sign-up{
@@ -185,10 +218,53 @@ footer{
     html{
         font-size: 18px;
     }
+
+    .usp-wrapper{
+        width: 75%;
+    }
     
     .checked-text{
         text-align: left;
         margin-left: 1rem;
+    }
+
+    .articles{
+        width: 60%;
+    }
+
+    #happy-client{
+        width: 100%;
+    }
+
+    #happy-client-man{
+        width: 100%;
+    }
+
+    .testimonial{
+        flex-wrap: nowrap;
+    }
+
+    .second-article{
+        flex-wrap:nowrap;
+        flex-direction: row-reverse;
+    }
+
+    .testimonial-text{
+        width: 100%; 
+    }
+
+    .plus-wrapper{
+        width: 25%;
+        margin: 0;
+        align-items: center;
+    }
+    
+    .plus-wrapper .icon{
+        width: 50%;
+    }
+
+    .social-media{
+        width: 50%;
     }
 }
 
@@ -217,5 +293,17 @@ footer{
         width: 80%;
         margin-top: 5rem;
         margin-bottom: 5rem;
+    }
+
+    #happy-client{
+        width: 50%;
+    }
+
+    #happy-client-man{
+        width: 50%;
+    }
+
+    .testimonial-text{
+        width: 50%; 
     }
 }
