@@ -294,7 +294,7 @@ footer{
     }
 
     h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h3{
@@ -303,6 +303,10 @@ footer{
 
     .nav-link{
         margin-right: 1rem;
+    }
+
+    #almi-negative{
+        width: 10%;
     }
 
     #hero-image{
@@ -316,12 +320,21 @@ footer{
         margin-bottom: 5rem;
     }
 
+    .article-wrapper{
+        width: 80%;
+        height: 60%;
+    }
+
     #happy-client{
         width: 50%;
     }
 
     #happy-client-man{
         width: 50%;
+        height: 90%;
+        align-self: end;
+        max-height: 100%;
+        max-width: 100%;
     }
 
     .testimonial-text{
