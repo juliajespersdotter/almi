@@ -301,6 +301,10 @@ footer{
         font-size: 1.7rem;
     }
 
+    .nav-link{
+        margin-right: 1rem;
+    }
+
     #hero-image{
         height: auto;
     }
