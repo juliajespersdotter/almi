@@ -116,6 +116,18 @@ header{
     color: var(--text-color);
 }
 
+.article-wrapper{
+    width: 80%;
+}
+
+#happy-client{
+    height: auto;
+}
+
+#happy-client-man{
+    height: auto;
+}
+
 .testimonial {
     width: 100%;
     background-color: var(--secondary-color);
@@ -123,6 +135,7 @@ header{
 }
 
 .second-article{
+    flex-direction: column-reverse;
     background-color: var(--primary-color);
     color: var(--text-color);
 }
@@ -245,8 +258,8 @@ footer{
         width: 60%;
     }
 
-    #happy-client{
-        width: 100%;
+    .article-wrapper{
+        height: 60%;
     }
 
     #happy-client-man{
@@ -322,11 +335,13 @@ footer{
 
     .article-wrapper{
         width: 80%;
-        height: 60%;
+        height: 50%;
     }
 
     #happy-client{
+        height: 50%;
         width: 50%;
+        align-self: end;
     }
 
     #happy-client-man{
