@@ -64,6 +64,7 @@ header{
 
 .hero-text-wrapper{
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
     position: absolute;
     top: 50%;
     left: 75%;
@@ -166,6 +167,7 @@ header{
 }
 
 .brand-names{
+    text-shadow: 2px 2px 4px #000000;
     background: url("assets/images/ux-indonesia-w00FkE6e8zE-unsplash.jpg");
     background-size: cover;
     max-width: 100%;
